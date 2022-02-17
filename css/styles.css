@@ -1,0 +1,82 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    background-color: #1a1a1a;
+    display: flex;
+    color: white;
+    height: 80px;
+    flex-direction: row;
+}
+
+.navigation ul {
+    list-style: none;
+    padding-left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navigation li{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.asimovies{
+    width: 150px;
+    height: 43px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.capa{
+    color: white;
+}
+
+.capa span {
+    color: red;
+}
+
+.capa div {
+    display: inline-block;
+}
+
+.profile-pic{
+    width: 40%;
+}
+
+.profile-pic img{
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.profile-title{
+    width: 60%;
+    vertical-align: top;
+    margin-top: 210px;
+    line-height: 12px;
+}
+
+.profile-title h1{
+    font-size: 62px;
+    margin-top: 90px;
+}
+
+.profile-title h2{
+    font-size: 22px;
+}
