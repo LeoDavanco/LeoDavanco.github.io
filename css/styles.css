@@ -44,8 +44,12 @@ body {
     text-decoration: none;
 }
 
+.navigation a:hover{
+    color: red;
+}
+
 .last {
-    margin-left: auto;
+    margin-left: 600px; 
 }
 
 .asimovies{
@@ -69,6 +73,9 @@ body {
 
 .profile-pic{
     width: 40%;
+
+    animation-name: profile-capa;
+    animation-duration: 3s;
 }
 
 .profile-pic:hover img{
@@ -88,6 +95,9 @@ body {
     margin-top: 210px;
     line-height: 12px;
     margin-left: 11px;
+
+    animation-name: profile-capa;
+    animation-duration: 5s;
 }
 
 .profile-title h1{
@@ -104,6 +114,9 @@ body {
     padding-left: 90px;
     padding-bottom: 80px;
     padding-right: 100px;
+
+    animation-name: profile-capa;
+    animation-duration: 2s;
 }
 
 .main h1{
@@ -144,6 +157,9 @@ body {
     padding-left: 180px;
     padding-bottom: 30px;
     padding-right: 50px;
+
+    animation-name: profile-capa;
+    animation-duration: 2s;
 }
 
 .port h1{
@@ -189,6 +205,14 @@ body {
     display: inline-block;
 }
 
+.caminho a{
+    color: white;
+}
+
+.caminho a:hover{
+    color: red;
+}
+
 .icone-social{
     margin-right: 10px;
 }
@@ -197,6 +221,9 @@ body {
     width: 320px;
     height: 320px;
     overflow: hidden;
+
+    animation-name: profile-capa;
+    animation-duration: 2s;
 }
 
 .trailer {
@@ -219,6 +246,7 @@ body {
 .blackbox:hover{
     background-color: black;
     opacity: 0.8;
+    transition: 0.5s;
 }
 
 .blackbox-text{
@@ -233,4 +261,52 @@ body {
 .blackbox-text h2{
     font-size: 15px;
     color: white;
+}
+
+.navigation li.treslinhas{
+    display: none;
+}
+
+@keyframes profile-capa{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.foto-inicio{
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.foto-inicio h1{
+    font-size: 40px;
+
+    animation-name: profile-capa;
+    animation-duration: 2s;
+}
+
+.foto-inicio a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.foto-inicio a:hover{
+    color:#FF060C;
+}
+
+.foto-inicio div {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menu{
+    width: 250px;
+    height: 238px;
+    overflow: hidden;
+    margin-left: 42%;
+
+    animation-name: profile-capa;
+    animation-duration: 2s;
 }
