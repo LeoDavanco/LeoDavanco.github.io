@@ -26,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     margin: 0;
+    width: 100%;
 }
 
 .navigation li{
@@ -33,6 +34,18 @@ body {
     padding-left: 50px;
     padding-right: 20px;
     font-size: 16px;
+}
+
+.navigation a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.last {
+    margin-left: auto;
 }
 
 .asimovies{
@@ -58,6 +71,11 @@ body {
     width: 40%;
 }
 
+.profile-pic:hover img{
+    transition: 1s;
+    width: 430px;
+}
+
 .profile-pic img{
     width: 400px;
     margin-top: 120px;
@@ -69,6 +87,7 @@ body {
     vertical-align: top;
     margin-top: 210px;
     line-height: 12px;
+    margin-left: 11px;
 }
 
 .profile-title h1{
@@ -113,12 +132,46 @@ body {
 }
 
 .main a{
-    color: #FF060C;
-    font-size: 20px;
-    margin-left: 49%;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    display: block;
 }
 
-.main img{
+.port{
+    padding-top: 30px;
+    padding-left: 180px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+.port h1{
+    color: #FF060C;
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.port h2{
+    color: #FF060C;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.port h3{
+    color: #F38479;
+    font-size:20px;
+}
+
+.port p{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.cv{
     width: 390px;
     height: 402px;
     float: right;
@@ -136,3 +189,48 @@ body {
     display: inline-block;
 }
 
+.icone-social{
+    margin-right: 10px;
+}
+
+.miniatura{
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.trailer {
+    display: inline-block;
+    margin: 0;
+    width:320px;
+    height: 320px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.blackbox{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    padding-top: 90px;
+}
+
+.blackbox:hover{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.blackbox-text{
+    text-align: center;
+}
+
+.blackbox-text h1{
+    font-size: 30px;
+    color: #FF060C;
+}
+
+.blackbox-text h2{
+    font-size: 15px;
+    color: white;
+}
