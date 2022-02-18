@@ -48,8 +48,13 @@ body {
     color: red;
 }
 
-.last {
-    margin-left: 600px; 
+.navigation li.treslinhas{
+    display: none;
+}
+
+.navigation li.treslinhas:hover{
+    color: red;
+    cursor: pointer;
 }
 
 .asimovies{
@@ -309,4 +314,130 @@ body {
 
     animation-name: profile-capa;
     animation-duration: 2s;
+}
+
+@media (max-width: 1000px){
+
+    .navigation li{
+        display: none;
+    }
+
+    .navigation li.treslinhas{
+        display: inline-block;
+    }
+
+    .profile-pic{
+        width: 100%;
+    }
+
+    .profile-pic img{
+        width: 400px;
+        margin-top: 10px;
+        max-width: 60%;
+    }
+
+    .profile-title{
+        width: 100%;
+        margin-top: 7%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .capa div {
+        display: block;
+        height: auto;
+    }
+
+    .profile-title h1{
+        font-size: 42px;
+        margin-top: 0px;
+    }
+
+    .main{
+        padding-top: 30px;
+        padding-left: 5%;
+        padding-bottom: 80px;
+        padding-right: 8%;
+
+    }
+
+    .main p {
+        text-align: left;
+        line-height: 30px;
+    }
+
+    .caminho {
+        list-style: none;
+        padding-left: 0px;
+        color: white;
+    }
+
+    .caminho li{
+        font-size: 14px;
+        
+    }
+
+    .cv{
+        width: 95%;
+        height: 95%;
+        border-radius: 50px;
+        vertical-align: top;
+    }
+
+    .miniatura{
+       max-width: 100%;
+    }
+    
+    .port{
+        padding-top: 30px;
+        padding-left: 15%;
+        padding-bottom: 30px;
+        padding-right: 5%;
+    
+        animation-name: profile-capa;
+        animation-duration: 2s;
+    }
+
+    .blackbox{
+        opacity: 0.6;
+    }
+
+    .menujs{
+        height: auto;
+        color: white;
+    }
+
+    .menujs ul{
+        display: block;
+        height: auto;
+        text-align: center;
+        margin-right: 12%;
+        margin-left: 5%;
+    }
+
+    .menujs li{
+        display: block;
+        border-bottom: solid white 1px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .foto-inicio{
+        color: white;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+
+    .foto-inicio a{
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        margin-left: 0px;
+    }
+
+    .lista {
+        color: white !important;
+        list-style: none;
+    }
+
 }
